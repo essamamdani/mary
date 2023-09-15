@@ -43,7 +43,7 @@ class Textarea extends Component
                                 'textarea textarea-primary w-full peer',                                 
                                 'pt-5' => ($inline && $label),                                     
                                 'border border-dashed' => $attributes->has('readonly'),
-                                'input-error' => $errors->has($modelName())
+                                'textarea-error' => $errors->has($modelName())
                             ]) 
                         }}                                    
                     ></textarea>                                        
